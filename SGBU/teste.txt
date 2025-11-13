@@ -1,0 +1,14 @@
+Como usar:
+
+1.Executar o servidor:
+
+python main.py
+
+2. Executar testes:
+
+# Todos os testes
+python -m unittest discover tests
+
+# Teste específico
+python -m unittest tests.test_usuario
+python -m unittest tests.test_integracao
